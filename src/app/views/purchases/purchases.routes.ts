@@ -1,12 +1,12 @@
 import { Route } from "@angular/router";
-import { VendorsComponent } from "./vendors/vendors.component";
 import { BillsComponent } from "./bills/bills.component";
+import { SupplierComponent } from "./supplier/supplier.component";
 
 export const PURCHASES_ROUTES : Route[] = [
     {
-        path : 'vendors',
-        component : VendorsComponent,
-        title : 'Vendors'
+        path : 'suppliers',
+        component : SupplierComponent,
+        title : 'Suppliers'
     },
     {
         path : 'bills',
